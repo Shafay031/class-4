@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+int age;
+float height;
+char gender; 
+    printf("Enter your age:\n");
+    scanf("%d",&age);
+    
+    printf("Enter your height in feets: \n");
+    scanf("%f",&height);
+    
+    printf("Enter your gender (M/F):\n");
+    scanf("%c",&gender);
+    
+    printf("\nyour age %d years old.",age);
+    printf("\nyour height is %.1feet.",height);
+    printf("\nyour gender is:%c",gender);
+    
+    return 0;
+     }
+    
+    
